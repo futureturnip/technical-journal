@@ -1,0 +1,9 @@
+baseURL = "https://futureturnip.github.io/"
+languageCode = "en-us"
+title = "Coffee Driven"
+theme = "hyde"
+
+[params]
+  description = "A technical journal"
+
+
