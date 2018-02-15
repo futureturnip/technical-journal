@@ -1,0 +1,17 @@
+
+
+.top-bar {
+  background-color: #222;
+  display: grid;
+  grid-template-columns: 1fr 740px 1fr;
+  height: 65px;
+}
+
+.top-bar-middle {
+  grid-column: 2;
+}
+
+.top-bar .title {
+  font-size: 20pt;
+  color: white;
+}
