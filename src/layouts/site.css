@@ -25,6 +25,13 @@
   grid-column: 2;
 }
 
+.post-datetime {
+  font-style: italic;
+  color: #888;
+  text-align:  right;
+  font-size: small;
+}
+
 .license {
   display: grid;
   grid-template-columns: 1fr 740px 1fr;

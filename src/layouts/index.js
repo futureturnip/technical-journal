@@ -4,13 +4,15 @@ import Helmet from 'react-helmet';
 
 import TopBar from '../components/TopBar';
 import License from '../components/License';
+
+import './prismjs-vs.css';
 import './index.css';
 import './site.css';
 
 const TemplateWrapper = ({ children }) => (
   <main>
     <Helmet
-      title="Coffee Driven Developer"
+      title="Jeff Kwak's Technical Journal"
       meta={[
         { name: 'description', content: 'A place to keep notes on all those Yaks I have to shave' },
         { name: 'keywords', content: 'technical journal, blog, code' },

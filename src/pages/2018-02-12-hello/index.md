@@ -21,6 +21,13 @@ In vestibulum justo in urna porttitor, a ullamcorper nulla dictum. Pellentesque 
 
 ```javascript
 const greetings = `Hello, ${person.name}`;
+
+const saySomething = (msg) => {
+  console.log(msg);
+}
+
+saySomething(greetings);
+
 ```
 
 ### Donec rhoncus odio quis eros rhoncus
