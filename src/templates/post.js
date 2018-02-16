@@ -7,7 +7,7 @@ export default function Template({ data }) {
     <article className="post">
       <Helmet title={`CDD: ${post.frontmatter.title}`}></Helmet>
       <header>
-        <h2 className="post-title">{post.frontmatter.title}</h2>
+        <h1 className="post-title">{post.frontmatter.title}</h1>
       </header>
       <section className="post-body">
         <p dangerouslySetInnerHTML={{ __html: post.html }}></p>

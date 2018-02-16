@@ -3,6 +3,7 @@ import PropTypes from 'prop-types';
 import Helmet from 'react-helmet';
 
 import TopBar from '../components/TopBar';
+import License from '../components/License';
 import './index.css';
 import './site.css';
 
@@ -16,19 +17,10 @@ const TemplateWrapper = ({ children }) => (
       ]}
     />
     <TopBar></TopBar>
-    <div
-      style={{
-        margin: '0 auto',
-        maxWidth: 960,
-        padding: '0px 1.0875rem 1.45rem',
-        paddingTop: 0,
-      }}
-    >
+    <div className="content">
       {children()}
     </div>
-    <div>
-      <a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License" src="https://i.creativecommons.org/l/by/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>.
-    </div>
+    <License></License>
   </main>
 )
 
