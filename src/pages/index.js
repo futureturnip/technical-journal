@@ -5,16 +5,30 @@ import Helmet from 'react-helmet';
 const IndexPage = ({ data }) => {
   const { edges: posts } = data.allMarkdownRemark;
   return (
-    <div className="posts">
-      {posts
-        .filter((post) => post.node.frontmatter.title.length > 0)
-        .map(({ node: post }) => {
-          return (
-            <div className="post">
-              <h1>title: {post.frontmatter.title}</h1>
-            </div>
-          );
-        })}
+    <div className="index-page">
+      {
+        posts
+          .filter((post) => post.node.frontmatter.title.length > 0)
+          .map(({ node: post }) => {
+            return (
+              <article className="post">
+                <header>
+                  <Link to={post.frontmatter.path}>
+                    <h1 className="post-title">{post.frontmatter.title}</h1>
+                  </Link>
+                </header>
+                <section className="post-body">
+                  <p dangerouslySetInnerHTML={{ __html: post.excerpt }}></p>
+                </section>
+                <footer className="post-footer">
+                  <p className="post-datetime">
+                    Posted on <time datetime={post.frontmatter.date}>{post.frontmatter.date}</time>
+                  </p>
+                </footer>
+              </article>
+            );
+          })
+      }
     </div>
   );
 }

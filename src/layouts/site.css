@@ -12,16 +12,17 @@
 }
 
 .top-bar .title {
-  font-size: 20pt;
+  font-size: 24pt;
+  font-family: roboto, monospace;
   color: white;
 }
 
-.content {
+.index-page, .article-page {
   display: grid;
   grid-template-columns: 1fr 740px 1fr;
 }
 
-.content > article {
+article {
   grid-column: 2;
 }
 

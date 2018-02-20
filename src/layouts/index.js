@@ -19,9 +19,7 @@ const TemplateWrapper = ({ children }) => (
       ]}
     />
     <TopBar></TopBar>
-    <div className="content">
-      {children()}
-    </div>
+    { children() }
     <License></License>
   </main>
 )
