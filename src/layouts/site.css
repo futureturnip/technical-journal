@@ -1,9 +1,9 @@
 
 
 .top-bar {
-  background-color: #222;
   display: grid;
   grid-template-columns: 1fr 740px 1fr;
+  border-bottom: #888 solid 1px;
   height: 65px;
 }
 
@@ -13,8 +13,7 @@
 
 .top-bar .title {
   font-size: 24pt;
-  font-family: roboto, monospace;
-  color: white;
+  font-family: monospace;
 }
 
 .index-page, .article-page {
