@@ -16,8 +16,9 @@ const TemplateWrapper = ({ children }) => (
       meta={[
         { name: 'description', content: 'A place to keep notes on all those Yaks I have to shave' },
         { name: 'keywords', content: 'technical journal, blog, code' },
-      ]}
-    />
+      ]} >
+       <link href="https://fonts.googleapis.com/css?family=Eczar:400,600" rel="stylesheet"></link>
+    </Helmet>
     <TopBar></TopBar>
     { children() }
     <License></License>

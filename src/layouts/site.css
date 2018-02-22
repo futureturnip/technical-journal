@@ -11,10 +11,6 @@
   grid-column: 2;
 }
 
-.top-bar .title {
-  font-size: 24pt;
-  font-family: monospace;
-}
 
 .index-page, .article-page {
   display: grid;
