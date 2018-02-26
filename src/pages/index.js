@@ -8,7 +8,7 @@ const IndexPage = ({ data }) => {
     <div className="index-page">
       {
         posts
-          .filter((post) => post.node.frontmatter.title.length > 0)
+          .filter((post) => !post.node.frontmatter.draft)
           .map(({ node: post }) => {
             return (
               <article className="post">
@@ -48,6 +48,7 @@ export const postQuery = graphql`
             title
             date(formatString: "MMMM DD, YYYY")
             path
+            draft
           }
         }
       }

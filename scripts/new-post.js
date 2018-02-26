@@ -28,10 +28,11 @@ const questions = [
   }
 ];
 
-const template = (slug, title, postDate) => (`---
+const template = (slug, title, postDate, isDraft) => (`---
 path: "/${slug}"
 date: "${postDate.toISOString()}"
 title: "${title}"
+draft: ${isDraft}
 ---
 
 `);
@@ -42,7 +43,7 @@ inquirer
     const slug = determineSlug(answers);
     const dirPath = path.join(__dirname, '..', determineDirectory(answers.postDate, slug));
     fs.mkdirSync(dirPath);
-    fs.writeFileSync(path.join(dirPath, 'index.md'), template(slug, answers.title, answers.postDate));
+    fs.writeFileSync(path.join(dirPath, 'index.md'), template(slug, answers.title, answers.postDate, answers.isDraft));
   });
 
 

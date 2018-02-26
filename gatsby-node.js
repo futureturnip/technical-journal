@@ -15,6 +15,7 @@ exports.createPages = ({ boundActionCreators, graphql }) => {
             date
             path
             title
+            draft
           }
         }
       }
@@ -25,6 +26,7 @@ exports.createPages = ({ boundActionCreators, graphql }) => {
     }
 
     result.data.allMarkdownRemark.edges
+      .filter(({ node }) => !node.frontmatter.draft)
       .forEach(({ node }) => {
         createPage({
           path: node.frontmatter.path,

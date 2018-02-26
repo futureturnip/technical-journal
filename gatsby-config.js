@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: 'This is a site',
+    title: "Jeff Kwak's Technical Journal",
   },
   plugins: [
     'gatsby-plugin-catch-links',
