@@ -30,10 +30,9 @@ const questions = [
 
 const template = (slug, title, postDate) => (`---
 path: "/${slug}"
-date: "${postDate}"
+date: "${postDate.toISOString()}"
 title: "${title}"
 ---
-# ${title}
 
 `);
 

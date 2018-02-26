@@ -1,16 +1,15 @@
 
-
 .top-bar {
   display: grid;
   grid-template-columns: 1fr 740px 1fr;
-  border-bottom: #888 solid 1px;
+  border-bottom: #ddd solid 1px;
+  background-color: #eee8;
   height: 65px;
 }
 
 .top-bar-middle {
   grid-column: 2;
 }
-
 
 .index-page, .article-page {
   display: grid;

@@ -6,7 +6,7 @@ export default function Template({ data }) {
   return (
     <div className="article-page">
       <article className="post">
-        <Helmet title={`CDD: ${post.frontmatter.title}`}></Helmet>
+        <Helmet title={post.frontmatter.title}></Helmet>
         <header>
           <h1 className="post-title">{post.frontmatter.title}</h1>
         </header>
