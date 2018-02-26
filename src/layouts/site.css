@@ -1,0 +1,55 @@
+
+
+.top-bar {
+  display: grid;
+  grid-template-columns: 1fr 740px 1fr;
+  border-bottom: #888 solid 1px;
+  height: 65px;
+}
+
+.top-bar-middle {
+  grid-column: 2;
+}
+
+
+.index-page, .article-page {
+  display: grid;
+  grid-template-columns: 1fr 740px 1fr;
+}
+
+article {
+  grid-column: 2;
+}
+
+.post-datetime {
+  font-style: italic;
+  color: #888;
+  text-align:  right;
+  font-size: small;
+}
+
+.license {
+  display: grid;
+  grid-template-columns: 1fr 740px 1fr;
+  font-size: 0.8em;
+  font-style: italic;
+}
+
+.license > * {
+  grid-column: 2;
+}
+
+.license a {
+  line-height: 31px;
+}
+
+.license img {
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 1em;
+}
+
+.license .license-text {
+  display: inline-block;
+  vertical-align: top;
+}
