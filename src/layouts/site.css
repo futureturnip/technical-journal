@@ -1,14 +1,30 @@
 
+:root {
+  --nav-bar-height: 65px;
+  --standard-space: 8px;
+}
+
 .top-bar {
   display: grid;
   grid-template-columns: 1fr 740px 1fr;
   border-bottom: #ddd solid 1px;
-  background-color: #eee8;
-  height: 65px;
+  height: var(--nav-bar-height);
+}
+
+.top-bar .logo {
+  height: var(--nav-bar-height);
+  float: right;
+  padding-top: calc(var(--nav-bar-height) * 0.1);
+  padding-bottom: calc(var(--nav-bar-height) * 0.1);
+  margin-right: calc(2 * var(--standard-space));
 }
 
 .top-bar-middle {
   grid-column: 2;
+}
+
+.top-bar-middle .site-title {
+  font-family: 'Comfortaa', cursive;
 }
 
 .index-page, .article-page {

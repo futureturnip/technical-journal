@@ -17,8 +17,9 @@ const TemplateWrapper = ({ children }) => (
         { name: 'description', content: 'A place to keep notes on all those Yaks I have to shave' },
         { name: 'keywords', content: 'technical journal, blog, code' },
       ]} >
+      </Helmet>
       <link href="https://fonts.googleapis.com/css?family=Eczar:400,600" rel="stylesheet"></link>
-    </Helmet>
+      <link href="https://fonts.googleapis.com/css?family=Comfortaa" rel="stylesheet"></link>
     <TopBar></TopBar>
     {children()}
     <License></License>
