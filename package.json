@@ -9,6 +9,7 @@
     "gatsby-link": "^1.6.34",
     "gatsby-plugin-catch-links": "^1.0.15",
     "gatsby-plugin-favicon": "^2.1.1",
+    "gatsby-plugin-feed-generator": "^1.0.5",
     "gatsby-plugin-react-helmet": "^2.0.4",
     "gatsby-plugin-typography": "^1.7.14",
     "gatsby-remark-prismjs": "^1.2.15",
@@ -34,7 +35,6 @@
   },
   "devDependencies": {
     "colors": "^1.1.2",
-    "gh-pages": "^1.1.0",
     "inquirer": "^5.1.0",
     "inquirer-datepicker-prompt": "^0.4.2",
     "moment": "^2.20.1",

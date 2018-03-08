@@ -1,6 +1,9 @@
 module.exports = {
   siteMetadata: {
     title: "Jeff Kwak's Technical Journal",
+    description: 'A place to write about all those Yaks',
+    siteUrl: 'https://jeffkwak.com',
+    author: 'Jeff Kwak'
   },
   plugins: [
     'gatsby-plugin-catch-links',
@@ -48,6 +51,9 @@ module.exports = {
           windows: false
         }
       }
+    },
+    {
+      resolve: 'gatsby-plugin-feed-generator'
     }
   ],
 };
