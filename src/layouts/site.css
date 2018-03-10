@@ -1,3 +1,6 @@
+* {
+  box-sizing: border-box;
+}
 
 :root {
   --nav-bar-height: 65px;
@@ -7,8 +10,8 @@
 .top-bar {
   display: grid;
   grid-template-columns: 1fr 740px 1fr;
+  grid-auto-rows: minmax(var(--nav-bar-height), var(--nav-bar-height));
   border-bottom: #ddd solid 1px;
-  height: var(--nav-bar-height);
 }
 
 .top-bar .logo {
@@ -25,6 +28,21 @@
 
 .top-bar-middle .site-title {
   font-family: 'Comfortaa', cursive;
+}
+
+.nav-icon {
+  display: inline-block;
+  width: calc(3 * var(--standard-space));
+  height: calc(3 * var(--standard-space));
+  margin: 0;
+  padding-top: calc(2 * var(--standard-space));
+  text-decoration: none;
+  color: #0000;
+}
+
+.nav-icon > img {
+  margin: 0;
+  padding: 0;
 }
 
 .index-page, .article-page {

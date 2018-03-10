@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   version="1.1"
+   x="0px"
+   y="0px"
+   viewBox="0 0 43 43"
+   enable-background="new 0 0 64 64"
+   xml:space="preserve"
+   id="svg3396"
+   inkscape:version="0.91 r13725"
+   sodipodi:docname="feed-1.svg"
+   width="43"
+   height="43"><metadata
+     id="metadata3416"><rdf:RDF><cc:Work
+         rdf:about=""><dc:format>image/svg+xml</dc:format><dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" /><dc:title></dc:title></cc:Work></rdf:RDF></metadata><defs
+     id="defs3414" /><sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="0"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1221"
+     inkscape:window-height="786"
+     id="namedview3412"
+     showgrid="false"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0"
+     inkscape:zoom="8.1125"
+     inkscape:cx="21.5"
+     inkscape:cy="13.5"
+     inkscape:window-x="29"
+     inkscape:window-y="28"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="svg3396" /><g
+     id="g3398"
+     transform="translate(-10.5,-10.5)"><g
+       id="g3400"><path
+         d="m 15,44.5 c -2.481,0 -4.5,2.019 -4.5,4.5 0,2.481 2.019,4.5 4.5,4.5 2.481,0 4.5,-2.019 4.5,-4.5 0,-2.481 -2.019,-4.5 -4.5,-4.5 z m 0,8 c -1.93,0 -3.5,-1.57 -3.5,-3.5 0,-1.93 1.57,-3.5 3.5,-3.5 1.93,0 3.5,1.57 3.5,3.5 0,1.93 -1.57,3.5 -3.5,3.5 z"
+         id="path3402"
+         inkscape:connector-curvature="0" style="stroke:#BBBBBB;stroke-opacity:1;fill:#BBBBBB;fill-opacity:1"/><path
+         d="m 15,28.5 c -0.276,0 -0.5,0.224 -0.5,0.5 l 0,6 c 0,0.276 0.224,0.5 0.5,0.5 7.444,0 13.5,6.056 13.5,13.5 0,0.276 0.224,0.5 0.5,0.5 l 6,0 c 0.276,0 0.5,-0.224 0.5,-0.5 C 35.5,37.696 26.304,28.5 15,28.5 Z m 14.492,20 C 29.233,40.901 23.099,34.768 15.5,34.509 l 0,-5.002 c 10.355,0.262 18.731,8.638 18.994,18.994 l -5.002,0 z"
+         id="path3404"
+         inkscape:connector-curvature="0" style="stroke:#BBBBBB;stroke-opacity:1;fill:#BBBBBB;fill-opacity:1"/><path
+         d="m 15,10.5 c -0.276,0 -0.5,0.224 -0.5,0.5 l 0,8 c 0,0.276 0.224,0.5 0.5,0.5 16.267,0 29.5,13.233 29.5,29.5 0,0.276 0.224,0.5 0.5,0.5 l 8,0 c 0.276,0 0.5,-0.224 0.5,-0.5 C 53.5,27.771 36.229,10.5 15,10.5 Z m 30.496,38 C 45.23,32.079 31.921,18.77 15.5,18.504 l 0,-7 C 35.782,11.769 52.23,28.218 52.497,48.5 l -7.001,0 z"
+         id="path3406"
+         inkscape:connector-curvature="0" style="stroke:#BBBBBB;stroke-opacity:1;fill:#BBBBBB;fill-opacity:1"/></g></g>
+    <text
+     x="-10.5"
+     y="68.5"
+     font-size="5px"
+     font-weight="bold"
+     id="text3408"
+     style="font-weight:bold;font-size:5px;font-family:'Helvetica Neue', Helvetica, Arial-Unicode, Arial, Sans-serif;fill:#000000">Created by Ralf Schmitzer</text>
+<text
+     x="-10.5"
+     y="73.5"
+     font-size="5px"
+     font-weight="bold"
+     id="text3410"
+     style="font-weight:bold;font-size:5px;font-family:'Helvetica Neue', Helvetica, Arial-Unicode, Arial, Sans-serif;fill:#000000">from the Noun Project</text>
+</svg>

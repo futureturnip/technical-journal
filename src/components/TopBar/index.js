@@ -1,15 +1,20 @@
 import React from 'react';
-import logo from './test.svg';
+import Link from 'gatsby-link';
+import logo from './logo.svg';
+import feed from './feed.svg';
 
 const TopBar = () => (
-  <div id="topbar" className="top-bar headroom">
+  <div id="topbar" className="top-bar">
     <div className="top-bar-left" >
-      <a href="/"><img src={logo} alt="Technical Notes Site Icon" className="logo"/></a>
+      <Link to="/"><img src={logo} alt="this sites logo, an astronaut helmet" className="logo"/></Link>
     </div>
     <div className="top-bar-middle">
       <h1 className="site-title">technical notes</h1>
     </div>
-    <div className="top-bar-right"></div>
+    <div className="top-bar-right">
+      {/* I don't want the feed to go through the react router. Just using good old anchor tag (POAT)*/}
+      <a href="feed.xml" className="nav-icon"><img src={feed} alt="clickable icon representing an rss feed for this site"/></a>
+    </div>
   </div>
 );
 

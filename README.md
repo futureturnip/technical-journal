@@ -8,3 +8,5 @@ This site is built with [Gatsby](https://www.gatsbyjs.org) and based on the defa
 [This work is licensed under a Creative Commons Attribution 4.0 International License](http://creativecommons.org/licenses/by/4.0/)
 
 [Astronaut Helmet by Yoshi from the Noun Project](https://thenounproject.com/search/?q=astronaut%20helmet&i=559777#)
+
+[Feed by Ralf Schmitzer from the Noun Project](https://thenounproject.com/search/?q=feed&i=556298)
