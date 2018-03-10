@@ -1,5 +1,6 @@
 import React from 'react';
 import Helmet from 'react-helmet';
+import PostDate from '../components/PostDate';
 
 export default function Template({ data }) {
   const { markdownRemark: post } = data;
@@ -9,6 +10,7 @@ export default function Template({ data }) {
         <Helmet title={post.frontmatter.title}></Helmet>
         <header>
           <h1 className="post-title">{post.frontmatter.title}</h1>
+          <PostDate postedOn={post.frontmatter.date}></PostDate>
         </header>
         <section className="post-body">
           <p dangerouslySetInnerHTML={{ __html: post.html }}></p>

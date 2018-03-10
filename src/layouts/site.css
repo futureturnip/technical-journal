@@ -61,6 +61,22 @@ article {
   font-size: small;
 }
 
+header {
+  margin-bottom: 1rem;
+}
+
+header h1 {
+  margin-bottom: 0.5rem;
+}
+
+header .post-datetime {
+  text-align: left;
+  margin: 0;
+  padding: 0;
+}
+
+
+
 .license {
   display: grid;
   grid-template-columns: 1fr 740px 1fr;
