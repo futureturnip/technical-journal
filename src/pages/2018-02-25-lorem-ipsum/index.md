@@ -2,7 +2,7 @@
 path: "/lorem-ipsum"
 date: "2018-02-25T15:44:48.696Z"
 title: "Lorem ipsum"
-draft: true
+draft: false
 ---
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus fermentum ac ex id laoreet. Quisque ac ex vel nibh finibus condimentum. Etiam lacus urna, dictum vitae nisl non, aliquet tristique diam. Donec faucibus urna ut lacus fermentum cursus. Duis in suscipit turpis, in interdum quam. Donec finibus dapibus viverra.
 
